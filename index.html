@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suryapandi| frontend Developer</title>
+  <meta name="description" content="Portfolio of suryapandi, a ui ux desinger and frotend developer building fast, accessible web apps.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">&lt;AM /&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-lg-2">
+            <button class="btn btn-sm btn-outline-light" id="themeToggle" aria-label="Toggle theme"><i class="bi bi-sun-fill"></i></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-7">
+          <p class="eyebrow">Hi, I'm surypandi</p>
+          <h1 class="display-3 fw-bold mb-2">suryapandi</h1>
+          <h2 class="h3 mb-4 text-gradient">I build <span id="typed"></span><span class="cursor">|</span></h2>
+          <p class="lead text-secondary mb-4">frontend developer and UI UX desinger</p>
+          <div class="d-flex flex-wrap gap-3">
+            <a href="#projects" class="btn btn-primary btn-lg px-4">View Projects</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg px-4">Hire Me</a>
+          </div>
+          <div class="d-flex gap-3 mt-4 fs-4 social">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+
+          </div>
+        </div>
+        <div class="col-lg-5 text-center">
+          <div class="avatar-wrap">
+            <div class="avatar">SP</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-6">
+    <div class="container">
+      <h2 class="section-title">About <span>Me</span></h2>
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-7 reveal">
+          <p class="fs-5">I'm a frontend developer and UI UX desinger fresher</p>
+          <p class="text-secondary">On the front end I work with HTML, CSS, JavaScript </p>
+          <ul class="list-unstyled text-secondary">
+            <li><i class="bi bi-geo-alt text-primary me-2"></i>Based in India, open to remote work</li>
+            <li><i class="bi bi-mortarboard text-primary me-2"></i>Bsc in information technology</li>
+            <li><i class="bi bi-envelope text-primary me-2"></i>suryapandi611@gmail.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-5 reveal">
+          <div class="row g-3 text-center">
+            <div class="col-6"><div class="stat-card"><h1>fresher</h1></div></div>
+            <div class="col-6"><div class="stat-card"><h1>project </h1></div></div>
+            <div class="col-6"><div class="stat-card"><h1> desinging</h1></div></div>
+            <div class="col-6"><div class="stat-card"><h1>quick learner</h1></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="py-6 bg-alt">
+    <div class="container">
+      <h2 class="section-title">My <span>Skills</span></h2>
+      <div class="row g-4">
+        <div class="col-md-4 reveal">
+          <div class="skill-card h-100">
+            <h3 class="h5"><i class="bi bi-window-stack me-2"></i>Frontend</h3>
+            <div class="skill" data-level="95"><div class="d-flex justify-content-between"><span>HTML</span><span>95%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="90"><div class="d-flex justify-content-between"><span>JavaScript</span><span>90%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="85"><div class="d-flex justify-content-between"><span>CSS</span><span>85%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="80"><div class="d-flex justify-content-between"><span>python</span><span>80%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="skill-card h-100">
+            <h3 class="h5"><i class="bi bi-hdd-network me-2"></i>desining toools</h3>
+            <div class="skill" data-level="88"><div class="d-flex justify-content-between"><span>adobe illustrate</span><span>88%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="80"><div class="d-flex justify-content-between"><span>figma</span><span>80%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="75"><div class="d-flex justify-content-between"><span>premiur pro</span><span>75%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="70"><div class="d-flex justify-content-between"><span>adobe photoshop</span><span>70%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+          </div>
+        </div>
+        <div class="col-md-4 reveal">
+          <div class="skill-card h-100">
+            <h3 class="h5"><i class="bi bi-database me-2"></i>Database &amp; Tools</h3>
+            <div class="skill" data-level="85"><div class="d-flex justify-content-between"><span>vs code</code></span><span>85%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="78"><div class="d-flex justify-content-between"><span>PostgreSQL / MySQL</span><span>78%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="88"><div class="d-flex justify-content-between"><span>Git &amp; GitHub</span><span>88%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+            <div class="skill" data-level="65"><div class="d-flex justify-content-between"><span>Docker / CI-CD</span><span>65%</span></div><div class="progress"><div class="progress-bar"></div></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-6">
+   <div class="container">
+      <h2 class="section-title">Featured <span>Projects</span></h2>
+      <div class="text-center mb-4" id="filters">
+        <button class="btn btn-sm btn-primary active" data-filter="all">All</button>
+        <button class="btn btn-sm btn-outline-primary" data-filter="fullstack">Full Stack</button>
+        <button class="btn btn-sm btn-outline-primary" data-filter="frontend">Frontend</button>
+        <button class="btn btn-sm btn-outline-primary" data-filter="backend">Backend</button>
+      </div>
+      <div class="row g-4" id="projectGrid"></div>
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-6">
+    <div class="container">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-7 reveal">
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" required minlength="2">
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+                <div class="invalid-feedback">Please enter a valid email.</div>
+              </div>
+              <div class="col-12">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" required>
+                <div class="invalid-feedback">Please add a subject.</div>
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="5" required minlength="10"></textarea>
+                <div class="invalid-feedback">Message must be at least 10 characters.</div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary btn-lg w-100">Send Message</button>
+              </div>
+            </div>
+            <div id="formAlert" class="alert alert-success mt-3 d-none" role="alert"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 border-top footer">
+    <p class="mb-0 text-secondary">&copy; <span id="year"></span> suryapandi. Built with HTML, CSS, JavaScript &amp; Bootstrap.</p>
+  </footer>
+
+  <button id="toTop" class="btn btn-primary rounded-circle" aria-label="Back to top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Project details modal -->
+  <div class="modal fade" id="projectModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p id="modalDesc"></p>
+          <div id="modalTags" class="d-flex flex-wrap gap-2"></div>
+        </div>
+        <div class="modal-footer">
+          <a href="#" id="modalCode" class="btn btn-outline-light" target="_blank" rel="noopener"><i class="bi bi-github me-1"></i>Code</a>
+          <a href="#" id="modalLive" class="btn btn-primary" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right me-1"></i>Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
